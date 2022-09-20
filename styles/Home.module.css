@@ -1,0 +1,22 @@
+.main {
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  background-color: var(--background-color);
+}
+
+.section_signin {
+  height: calc(100vh - 156px);
+}
+
+@media (min-width: 1024px) {
+  .main {
+    left: 64px;
+    width: calc(100% - 64px);
+    min-height: calc(100vh - 76px);
+  }
+
+  .section_signin {
+    height: calc(100vh - 76px);
+  }
+}
